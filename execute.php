@@ -48,7 +48,46 @@
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
+		if($text "ciao"){
+
+$risp "Benvenuto sulla pagina del Bot del IIS8Marzo";
+$parameters = array('chat_id' => $chatId, "text" => $risp);
+}
+if($text=="data"){
+
+$risp = "La data odierna è: ".date("d.m.y"); 
+$parameters array('chat_id => $chatid, "text"=> $risp);
+
+}
+
+if($text=="foto"){
+
+$foto[0] = "foto.jpg";
+$foto[1] = "foto1.jpg":
+
+$i = rand(0,1);
+
+sendFoto($chatId, $foto[si], false, "descrizione Foto", $api);
+
+} 
+		  
+		  
 		
+
+if($text=="barze"){
+
+
+$barze[0] = "Che cos\'è una zebra? Un cavallo evaso dal carcerel";
+$barze[1] = "Qual è il colmo per un tuffatore? Fare un buco nell\'acqua.";
+$barze[2] "Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, cosa è???? La tomba.";
+$barze[3]= "Qual è il colmo per un giardiniere? Piantare la fidanzata."; 
+
+//genero un numero randoma tra 8 e 3 e lo salvo nella variabile si";
+
+$i = rand(0,3);
+	$parameters = array('chat_id' => $chatId, "text" => $barze[$i]);
+
+}
 		
 		
 		//aggiungo il comando di invio
