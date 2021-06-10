@@ -70,8 +70,8 @@
 		if($text=="barze"){
 			$barze[0] = "Che cos\'è una zebra? Un cavallo evaso dal carcerel";
 			$barze[1] = "Qual è il colmo per un tuffatore? Fare un buco nell\'acqua.";
-			$barze[2] "Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, cosa è???? La tomba.";
-			$barze[3]= "Qual è il colmo per un giardiniere? Piantare la fidanzata."; 
+			$barze[2] = "Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, cosa è???? La tomba.";
+			$barze[3] = "Qual è il colmo per un giardiniere? Piantare la fidanzata."; 
 			//genero un numero randoma tra 8 e 3 e lo salvo nella variabile si";
 				$i = rand(0,3);
 				$parameters = array('chat_id' => $chatId, "text" => $barze[$i]);
