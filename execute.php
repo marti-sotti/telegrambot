@@ -49,13 +49,13 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
 		if($text "ciao"){
-			$risp = "Benvenuto sulla pagina del Bot del IIS8Marzo";
-			$parameters = array('chat_id' => $chatId, "text" => $risp);
+			$text = "Benvenuto sulla pagina del Bot del IIS8Marzo";
+			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 
 		if($text=="data"){
-			$risp = "La data odierna è: ".date("d.m.y"); 
-			$parameters array('chat_id' => $chatid, "text"=> $risp);
+			$text = "La data odierna è: ".date("d.m.y"); 
+			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 /*
 		if($text=="foto"){
