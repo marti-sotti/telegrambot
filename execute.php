@@ -47,7 +47,7 @@
 		header("Content-Type: application/json");
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
-		/*
+		
 		if($text "ciao"){
 			$risp = "Benvenuto sulla pagina del Bot del IIS8Marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $risp);
@@ -57,7 +57,7 @@
 			$risp = "La data odierna è: ".date("d.m.y"); 
 			$parameters array('chat_id' => $chatid, "text"=> $risp);
 		}
-
+/*
 		if($text=="foto"){
 			$foto[0] = "foto.jpg";
 			$foto[1] = "foto1.jpg":
