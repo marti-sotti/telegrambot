@@ -48,7 +48,7 @@
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
-		if($text "ciao"){
+		if($text == "ciao"){
 			$text = "Benvenuto sulla pagina del Bot del IIS8Marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
